@@ -5,13 +5,13 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your day of birth: ");
+        System.out.print("Enter your day of birth: ");
         int dayOfBirth = scanner.nextInt();
 
-        System.out.println("Enter your month of birth: ");
+        System.out.print("Enter your month of birth: ");
         int monthOfBirth = scanner.nextInt();
 
-        System.out.println("Enter your year of birth: ");
+        System.out.print("Enter your year of birth: ");
         int yearOfBirth = scanner.nextInt();
 
         Calendar todayCalendar = Calendar.getInstance();
